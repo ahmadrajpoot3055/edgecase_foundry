@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases
+data/*.db
+*.db
+*.sqlite3
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
